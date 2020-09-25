@@ -69,7 +69,7 @@
     $('.slide-inner').slick({
         autoplay: true,
         dots: true,
-        autoplaySpeed: 4500,
+        autoplaySpeed: 4000,
         speed: 600,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -78,8 +78,9 @@
         pauseOnFocus: false,
         cssEase: 'ease',
         draggable: true,
-        fade: false,
+        fade: true,
         arrows: true,
+        cssEase: 'linear',
         prevArrow: '<button class="prevArrow marrow"><i class="fas fa-angle-left"></i></button>',
         nextArrow: '<button class="nextArrow marrow"><i class="fas fa-angle-right"></i></button>',
         responsive: [{
